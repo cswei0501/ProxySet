@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProxySet.iml" filepath="$PROJECT_DIR$/ProxySet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aroxydroid/aroxydroid.iml" filepath="$PROJECT_DIR$/aroxydroid/aroxydroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool.iml" filepath="$PROJECT_DIR$/tool/tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transproxy3/transproxy3.iml" filepath="$PROJECT_DIR$/transproxy3/transproxy3.iml" />
+    </modules>
+  </component>
+</project>

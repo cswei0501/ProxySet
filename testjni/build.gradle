@@ -1,0 +1,42 @@
+import com.android.build.gradle.internal.dsl.NdkOptions
+
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 20
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId "com.example.testjni"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+
+            moduleName "hello-jni"
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable false
+        }
+    }
+    productFlavors {
+    }
+    dexOptions {
+        incremental true
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+}

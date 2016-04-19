@@ -1,0 +1,1 @@
+include ':app', ':transproxy3', ':pulltorefresh', ':test', ':tool', ':aroxydroid'
